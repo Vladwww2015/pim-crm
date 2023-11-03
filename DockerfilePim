@@ -1,0 +1,32 @@
+FROM ubuntu:20.04
+
+ENV DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && \
+    apt-get install -y make && \
+    apt-get clean && \
+    apt-get install -y curl && \
+    apt-get install -y git && \
+    apt-get install -y nano && \
+    apt-get install -y cron && \
+    apt-get -y install ufw && \
+    apt-get -y install nginx
+
+RUN apt-get install -y iputils-ping
+
+RUN apt-get update && apt-get install -y \
+    nginx \
+    php7.4 \
+    php7.4-fpm \
+    php7.4-mysql \
+    php7.4-curl \
+    php7.4-gd \
+    php7.4-mbstring \
+    php7.4-xml \
+    php7.4-zip \
+    php7.4-imagick
+
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
+COPY ./docker/php-pim/docker.ini /etc/php/7.4/fpm/conf.d/docker.ini
+
+WORKDIR /var/www/html
