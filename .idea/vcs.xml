@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$/crm" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/crm/app" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/crm/app/installation/espocrm-backup/2023-11-03_171719/astrocore-pim/pim" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/pim" vcs="Git" />
-  </component>
-</project>

@@ -60,7 +60,7 @@ declare -A data=(
     [dbPassword]=$(openssl rand -hex 10)
     [adminUsername]="admin"
     [adminPassword]=$(openssl rand -hex 6)
-    [homeDirectory]=$(dirname "$(pwd)")
+    [homeDirectory]="/var/www/espocrm"
     [action]="main"
     [backupPath]="SCRIPT_DIRECTORY/espocrm-backup"
 )

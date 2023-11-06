@@ -1,0 +1,48 @@
+version: '3'
+services:
+    atropim_pim:
+        container_name: atropim_pim
+        build:
+            context: .
+            dockerfile: DockerfilePim
+        ports:
+            - '8095:80'
+        command: supervisord -n -c /etc/supervisor/conf.d/supervisord.conf
+        #        command: tail -f /dev/null
+        volumes:
+            - ./docker/nginx-pim:/etc/nginx/sites-enabled
+            - ./pim:/var/www/html
+        networks:
+            - pim_network
+        working_dir: /var/www/html
+
+    atropim_mysql:
+        container_name: atropim_mysql
+        image: 'mysql/mysql-server:8.0'
+        environment:
+            MYSQL_ROOT_PASSWORD: 'root'
+            MYSQL_ROOT_HOST: '%'
+            MYSQL_DATABASE: 'atropim'
+            MYSQL_USER: 'atropim'
+            MYSQL_PASSWORD: 'atropim'
+            MYSQL_ALLOW_EMPTY_PASSWORD: 1
+#        command: --max_allowed_packet=1G
+        networks:
+            - pim_network
+        healthcheck:
+            test:
+                - CMD
+                - mysqladmin
+                - ping
+                - '-proot'
+            retries: 3
+            timeout: 5s
+        volumes:
+            - ./docker/mysql-pim:/var/lib/mysql   # Volume for MySQL data
+
+networks:
+    pim_network:
+
+volumes:
+    volume-mysql:
+        driver: local

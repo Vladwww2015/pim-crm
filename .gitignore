@@ -1,4 +1,6 @@
 crm/app/*
 pim/app/*
-docker/mysql-crm/app/*
-docker/mysql-pim/app/*
+dam/app/*
+docker/mysql-dam/*
+docker/mysql-pim/*
+espocrm-installer*

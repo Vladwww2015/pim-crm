@@ -1,0 +1,148 @@
+2023-11-03 21:57:38,731 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-03 21:57:38,733 INFO supervisord started with pid 1
+2023-11-03 21:57:39,735 INFO spawned: 'mysql' with pid 8
+2023-11-03 21:57:39,737 INFO spawned: 'nginx' with pid 9
+2023-11-03 21:57:39,738 INFO spawned: 'php-fpm' with pid 10
+2023-11-03 21:57:39,739 INFO exited: mysql (exit status 1; not expected)
+2023-11-03 21:57:39,753 INFO exited: nginx (exit status 0; not expected)
+2023-11-03 21:57:39,776 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-03 21:57:40,777 INFO spawned: 'mysql' with pid 48
+2023-11-03 21:57:40,779 INFO spawned: 'nginx' with pid 49
+2023-11-03 21:57:40,780 INFO spawned: 'php-fpm' with pid 50
+2023-11-03 21:57:40,782 INFO exited: mysql (exit status 1; not expected)
+2023-11-03 21:57:40,787 INFO exited: nginx (exit status 0; not expected)
+2023-11-03 21:57:40,792 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-03 21:57:42,795 INFO spawned: 'mysql' with pid 70
+2023-11-03 21:57:42,796 INFO spawned: 'nginx' with pid 71
+2023-11-03 21:57:42,798 INFO spawned: 'php-fpm' with pid 73
+2023-11-03 21:57:42,800 INFO exited: mysql (exit status 1; not expected)
+2023-11-03 21:57:42,806 INFO exited: nginx (exit status 0; not expected)
+2023-11-03 21:57:42,809 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-03 21:57:45,814 INFO spawned: 'mysql' with pid 92
+2023-11-03 21:57:45,815 INFO spawned: 'nginx' with pid 93
+2023-11-03 21:57:45,816 INFO spawned: 'php-fpm' with pid 95
+2023-11-03 21:57:45,817 INFO exited: mysql (exit status 1; not expected)
+2023-11-03 21:57:45,818 INFO gave up: mysql entered FATAL state, too many start retries too quickly
+2023-11-03 21:57:45,823 INFO exited: nginx (exit status 0; not expected)
+2023-11-03 21:57:45,823 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-11-03 21:57:45,827 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-03 21:57:46,828 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-11-06 14:30:07,852 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-06 14:30:07,854 INFO supervisord started with pid 1
+2023-11-06 14:30:08,856 INFO spawned: 'mysql' with pid 8
+2023-11-06 14:30:08,857 INFO spawned: 'nginx' with pid 9
+2023-11-06 14:30:08,858 INFO spawned: 'php-fpm' with pid 10
+2023-11-06 14:30:08,860 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:30:08,873 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:30:08,893 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:30:09,896 INFO spawned: 'mysql' with pid 48
+2023-11-06 14:30:09,897 INFO spawned: 'nginx' with pid 49
+2023-11-06 14:30:09,898 INFO spawned: 'php-fpm' with pid 50
+2023-11-06 14:30:09,899 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:30:09,904 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:30:09,908 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:30:11,911 INFO spawned: 'mysql' with pid 70
+2023-11-06 14:30:11,912 INFO spawned: 'nginx' with pid 71
+2023-11-06 14:30:11,914 INFO spawned: 'php-fpm' with pid 72
+2023-11-06 14:30:11,916 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:30:11,921 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:30:11,926 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:30:14,931 INFO spawned: 'mysql' with pid 92
+2023-11-06 14:30:14,932 INFO spawned: 'nginx' with pid 93
+2023-11-06 14:30:14,933 INFO spawned: 'php-fpm' with pid 95
+2023-11-06 14:30:14,934 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:30:14,935 INFO gave up: mysql entered FATAL state, too many start retries too quickly
+2023-11-06 14:30:14,940 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:30:14,940 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-11-06 14:30:14,944 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:30:15,945 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-11-06 14:32:11,077 WARN received SIGTERM indicating exit request
+2023-11-06 14:32:13,984 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-06 14:32:13,986 INFO supervisord started with pid 1
+2023-11-06 14:32:14,989 INFO spawned: 'mysql' with pid 8
+2023-11-06 14:32:14,991 INFO spawned: 'nginx' with pid 9
+2023-11-06 14:32:14,994 INFO spawned: 'php-fpm' with pid 10
+2023-11-06 14:32:14,997 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:32:15,013 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:32:15,031 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:32:16,033 INFO spawned: 'mysql' with pid 48
+2023-11-06 14:32:16,034 INFO spawned: 'nginx' with pid 49
+2023-11-06 14:32:16,035 INFO spawned: 'php-fpm' with pid 50
+2023-11-06 14:32:16,036 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:32:16,040 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:32:16,043 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:32:18,046 INFO spawned: 'mysql' with pid 70
+2023-11-06 14:32:18,047 INFO spawned: 'nginx' with pid 71
+2023-11-06 14:32:18,048 INFO spawned: 'php-fpm' with pid 72
+2023-11-06 14:32:18,049 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:32:18,053 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:32:18,057 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:32:21,064 INFO spawned: 'mysql' with pid 92
+2023-11-06 14:32:21,067 INFO spawned: 'nginx' with pid 93
+2023-11-06 14:32:21,068 INFO spawned: 'php-fpm' with pid 94
+2023-11-06 14:32:21,069 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:32:21,069 INFO gave up: mysql entered FATAL state, too many start retries too quickly
+2023-11-06 14:32:21,074 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:32:21,074 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-11-06 14:32:21,077 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:32:22,078 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-11-06 14:32:51,112 WARN received SIGTERM indicating exit request
+2023-11-06 14:32:54,071 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-06 14:32:54,073 INFO supervisord started with pid 1
+2023-11-06 14:32:55,075 INFO spawned: 'mysql' with pid 8
+2023-11-06 14:32:55,078 INFO spawned: 'nginx' with pid 9
+2023-11-06 14:32:55,080 INFO spawned: 'php-fpm' with pid 10
+2023-11-06 14:32:55,082 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:32:55,094 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:32:55,115 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:32:56,117 INFO spawned: 'mysql' with pid 48
+2023-11-06 14:32:56,118 INFO spawned: 'nginx' with pid 49
+2023-11-06 14:32:56,119 INFO spawned: 'php-fpm' with pid 50
+2023-11-06 14:32:56,121 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:32:56,126 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:32:56,129 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:32:58,132 INFO spawned: 'mysql' with pid 70
+2023-11-06 14:32:58,134 INFO spawned: 'nginx' with pid 71
+2023-11-06 14:32:58,135 INFO spawned: 'php-fpm' with pid 72
+2023-11-06 14:32:58,136 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:32:58,141 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:32:58,144 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:33:01,150 INFO spawned: 'mysql' with pid 92
+2023-11-06 14:33:01,153 INFO spawned: 'nginx' with pid 93
+2023-11-06 14:33:01,154 INFO spawned: 'php-fpm' with pid 94
+2023-11-06 14:33:01,155 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:33:01,155 INFO gave up: mysql entered FATAL state, too many start retries too quickly
+2023-11-06 14:33:01,160 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:33:01,160 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-11-06 14:33:01,163 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:33:02,164 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-11-06 14:35:18,319 WARN received SIGTERM indicating exit request
+2023-11-06 14:35:21,535 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-06 14:35:21,537 INFO supervisord started with pid 1
+2023-11-06 14:35:22,541 INFO spawned: 'mysql' with pid 8
+2023-11-06 14:35:22,546 INFO spawned: 'nginx' with pid 9
+2023-11-06 14:35:22,547 INFO spawned: 'php-fpm' with pid 10
+2023-11-06 14:35:22,548 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:35:22,561 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:35:22,582 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:35:23,586 INFO spawned: 'mysql' with pid 48
+2023-11-06 14:35:23,589 INFO spawned: 'nginx' with pid 49
+2023-11-06 14:35:23,590 INFO spawned: 'php-fpm' with pid 50
+2023-11-06 14:35:23,592 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:35:23,596 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:35:23,599 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:35:25,605 INFO spawned: 'mysql' with pid 70
+2023-11-06 14:35:25,610 INFO spawned: 'nginx' with pid 71
+2023-11-06 14:35:25,611 INFO spawned: 'php-fpm' with pid 72
+2023-11-06 14:35:25,612 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:35:25,617 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:35:25,620 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:35:28,624 INFO spawned: 'mysql' with pid 101
+2023-11-06 14:35:28,625 INFO spawned: 'nginx' with pid 102
+2023-11-06 14:35:28,626 INFO spawned: 'php-fpm' with pid 103
+2023-11-06 14:35:28,627 INFO exited: mysql (exit status 1; not expected)
+2023-11-06 14:35:28,628 INFO gave up: mysql entered FATAL state, too many start retries too quickly
+2023-11-06 14:35:28,632 INFO exited: nginx (exit status 0; not expected)
+2023-11-06 14:35:28,632 INFO gave up: nginx entered FATAL state, too many start retries too quickly
+2023-11-06 14:35:28,635 INFO exited: php-fpm (exit status 0; not expected)
+2023-11-06 14:35:29,636 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly

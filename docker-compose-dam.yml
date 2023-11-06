@@ -1,0 +1,48 @@
+version: '3'
+services:
+    atrodam_dam:
+        container_name: atrodam_dam
+        build:
+            context: .
+            dockerfile: DockerfileDam
+        ports:
+            - '8096:80'
+        command: supervisord -n -c /etc/supervisor/conf.d/supervisord.conf
+        #        command: tail -f /dev/null
+        volumes:
+            - ./docker/nginx-dam:/etc/nginx/sites-enabled
+            - ./dam:/var/www/html
+        networks:
+            - dam_network
+        working_dir: /var/www/html
+
+    atrodam_mysql:
+        container_name: atrodam_mysql
+        image: 'mysql/mysql-server:8.0'
+        environment:
+            MYSQL_ROOT_PASSWORD: 'root'
+            MYSQL_ROOT_HOST: '%'
+            MYSQL_DATABASE: 'atrodam'
+            MYSQL_USER: 'atrodam'
+            MYSQL_PASSWORD: 'atrodam'
+            MYSQL_ALLOW_EMPTY_PASSWORD: 1
+#        command: --max_allowed_packet=1G
+        networks:
+            - dam_network
+        healthcheck:
+            test:
+                - CMD
+                - mysqladmin
+                - ping
+                - '-proot'
+            retries: 3
+            timeout: 5s
+        volumes:
+            - ./docker/mysql-dam:/var/lib/mysql   # Volume for MySQL data
+
+networks:
+    dam_network:
+
+volumes:
+    volume-mysql:
+        driver: local
